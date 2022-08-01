@@ -1,0 +1,31 @@
+<html>
+  <html>
+    <head>
+      <meta charset="utf-8" />
+      <title>Simple To Do List</title>
+      <link rel="stylesheet" href="style.css" />
+      <link rel="icon" href="bars-icon.svg" type="image/x-icon" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"/>
+    </head>
+    <body>
+    
+      <div class="wrapper">
+        <div class="task-input">
+          <img src="bars-icon.svg" alt="icon" />
+          <input type="text" placeholder="Tambah List Baru" />
+        </div>
+        <div class="controls">
+          <div class="filters">
+            <span class="active" id="all">Semua</span>
+            <span id="pending">Belum Nih</span>
+            <span id="completed">Ini Yang Udah</span>
+          </div>
+          <button class="clear-btn">Hapus Semua</button>
+        </div>
+        <ul class="task-box"></ul>
+      </div>
+    </body>
+    <script src="script.js"></script>
+  </html>
+</html>
